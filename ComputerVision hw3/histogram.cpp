@@ -9,7 +9,6 @@
 			for (int j = 0; j < 256; j++) {
 				val[j] = 0;
 			}
-
 			for (int x = 0; x < img.width(); x++) {
 				for (int y = 0; y < img.height(); y++) {
 
@@ -56,7 +55,7 @@
 		return transfer;
 	}
 	void  Histogram::histogram_equalization() {
-		cout << channel;
+//		cout << channel;
 		vector<vector<int> >  _transfer = transfer();
 		for (int i = 0; i < channel; i++) {
 			vector<int> T = _transfer[i];
